@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chrono Clicker Enhanced</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="era-background"></div>
+    <div id="game-container">
+        <div id="header">
+            <h1>Chrono Clicker</h1>
+            <div id="era-display">Current Era: <span id="era">Primitive Age</span></div>
+        </div>
+        <div id="main-content">
+            <div id="time-display">
+                <div>Time Advanced: <span id="time">0</span> seconds</div>
+                <div id="time-progress">
+                    <div id="time-bar"></div>
+                </div>
+            </div>
+            <div id="ce-display">Chrono Energy (CE): <span id="ce">0</span></div>
+            <!-- Temporal Points Display -->
+            <div id="tp-display">Temporal Points (TP): <span id="tp">0</span></div>
+
+            <button id="advance-time-btn">Advance Time</button>
+            <!-- Time Loop (Prestige) Button -->
+            <button id="time-loop-btn">Perform Time Loop (Prestige)</button>
+
+            <!-- Automation Toggle Button -->
+            <button id="toggle-auto-upgrade-btn" style="display: none;">Enable Auto Upgrade Purchasing</button>
+
+            <div id="upgrades-container">
+                <h2>Upgrades</h2>
+                <div id="upgrades">
+                    <!-- Upgrade items will be injected here -->
+                </div>
+            </div>
+
+            <!-- Temporal Shop -->
+            <div id="temporal-shop-container">
+                <h2>Temporal Shop</h2>
+                <div id="temporal-shop">
+                    <!-- Temporal shop items will be injected here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
